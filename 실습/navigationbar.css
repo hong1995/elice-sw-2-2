@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    height:100vh;
+    background-color:#525E75;
+    font-family: 'Grape Nuts', cursive;
+}
+.nav{
+    background-color:#F1DD8F;
+    display:flex;
+    justify-content:center;
+}
+.nav-btn{
+    padding:20px 50px;
+    cursor: pointer;
+    font-size:20px;
+    transition: background-color ease-in 300ms, color ease-in 300ms;
+}
+
+.nav-btn:hover{
+    background-color: #78938A;
+    color:white;
+}
