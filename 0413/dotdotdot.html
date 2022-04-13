@@ -1,0 +1,28 @@
+<html>
+    <head>
+    </head>
+    <body>
+        JavaScript is <span 
+        style="
+            background-color:rgb(215,215,215);
+            padding: 0 5px;
+            cursor:pointer;
+            "
+        onclick="
+            document.querySelector('#hidden').style.display='inline';
+            this.style.diplay='none'; 
+        ">...</span> <span id ="hidden" style="display:none;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quaerat quo magnam rem excepturi porro assumenda amet ut laboriosam libero tenetur voluptate optio voluptatum dolorem, praesentium dolores, cum officiis fuga?</span>
+        <hr>
+        JavaScript is <span 
+        style="
+            background-color:rgb(215,215,215);
+            padding: 0 5px;
+            cursor:pointer;
+            "
+        onclick="
+            document.querySelector('#content').style.display='inline';
+            this.style.diplay='none';
+            document.querySelector('#content').innerHTML='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quaerat quo magnam rem excepturi porro assumenda amet ut laboriosam libero tenetur voluptate optio voluptatum dolorem, praesentium dolores, cum officiis fuga?';
+        ">...</span> <span id ="content" style="display:none;"></span>
+    </body>
+</html>
